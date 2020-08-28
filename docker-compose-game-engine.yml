@@ -1,0 +1,17 @@
+version: "3"
+services:
+
+  game-engine:
+    image: brunotouxaxa/ageofdevsecops-game-engine:1.0
+    environment:
+      AWS_ACCESS_KEY_ID: "${AWS_ACCESS_KEY_ID}"
+      AWS_SECRET_ACCESS_KEY: "${AWS_SECRET_ACCESS_KEY}"
+      SPRING_DATASOURCE_USERNAME: "${DATASOURCE_USERNAME}"
+      SPRING_DATASOURCE_PASSWORD: "${DATASOURCE_PASSWORD}"
+      SPRING_SECURITY_USER_PASSWORD: "${WEB_PASSWORD}"
+      SPRING_DATASOURCE_URL: "jdbc:mysql://${DATASOURCE_URL}:3306/labs_age_of_devsecops"
+
+  score-board:
+    image: brunotouxaxa/ageofdevsecops-score-board:1.0
+    ports:
+      - "80:80"

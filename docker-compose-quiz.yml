@@ -1,0 +1,7 @@
+version: "3"
+services:
+
+  quiz:
+    image: brunotouxaxa/ageofdevsecops-quiz:1.0
+    ports:
+      - "80:8080"
