@@ -28,22 +28,22 @@ If you want to use a simulation of player actions, you need to run in the `dev` 
 
 An IntelliJ run configuration is available in the project.
 
-To pause the game engine:
-```bash
-curl -u "admin:game_engine_password" -X POST http://localhost:8080/api/admin/game/resume
-```
-
 To resume the game engine:
 ```bash
-curl -u "admin:game_engine_password" -X POST http://localhost:8080/api/admin/game/pause
+curl -u "admin:game_engine_password" -X POST http://localhost/api/admin/game/resume
+```
+
+To pause the game engine:
+```bash
+curl -u "admin:game_engine_password" -X POST http://localhost/api/admin/game/pause
 ```
 
 To enable player onboarding:
 ```bash
-curl -u "admin:game_engine_password" -X POST http://localhost:8080/api/admin/onboarding/resume
+curl -u "admin:game_engine_password" -X POST http://localhost/api/admin/onboarding/resume
 ```
 
 To disable player onboarding:
 ```bash
-curl -u "admin:game_engine_password" -X POST http://localhost:8080/api/admin/onboarding/pause
+curl -u "admin:game_engine_password" -X POST http://localhost/api/admin/onboarding/pause
 ```
