@@ -14,11 +14,11 @@ class PlayerChallengesCheckerImpl(
 
     private val checkerByChallenge = mapOf(
             Challenge("Uptime", 1, 1, 1) to HealthChallengeChecker::class.java,
-            Challenge("Spring Actuator", 1, 3, 0) to HeapDumpChallengeChecker::class.java,
-            Challenge("Dependencies", 0, 2, 2) to DependencyChallengeChecker::class.java,
-            Challenge("Default Error Page", 1, 1, 0) to DefaultErrorPageChallengeChecker::class.java,
+            Challenge("Spring Actuator", 3, 3, 0) to HeapDumpChallengeChecker::class.java,
+            Challenge("Dependencies", 1, 2, 2) to DependencyChallengeChecker::class.java,
+            Challenge("Default Error Page", 3, 1, 0) to DefaultErrorPageChallengeChecker::class.java,
             Challenge("Load Balancing", 0, 0, 5) to LoadBalancerChallengeChecker::class.java,
-            Challenge("Sonar", 0, 0, 2) to SonarChallengeChecker::class.java,
+            Challenge("Sonar", 1, 0, 2) to SonarChallengeChecker::class.java,
             Challenge("Quality", 4, 0, 0) to QualityCodeChallengeChecker::class.java,
             Challenge("Logs", 1, 2, 0) to LogChallengeChecker::class.java,
             Challenge("Secure transmissions", 0, 2, 3) to SSLCertificateChecker::class.java

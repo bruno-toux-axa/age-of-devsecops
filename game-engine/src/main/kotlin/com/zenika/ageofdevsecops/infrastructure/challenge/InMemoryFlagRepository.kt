@@ -48,7 +48,7 @@ class InMemoryFlagRepository : FlagRepository {
                 Flag("WORKSHOP_DRMAD_DEV0_SEC2_OPS0_im5r86b85j8q9ct3q2238ix5r969744u3kmkk6g4tdfxh4d8", 0, 2, 0), 
                 Flag("WORKSHOP_EVENTSTORMING_DEV1_SEC1_OPS1_fdzdgq96py282i6p4nj6r3h8v695c444v3c97s5h9mhg5f88", 1, 1, 1), 
                 Flag("SECRET_REDTEAMING_DEV0_SEC5_OPS0_kG4Q77PymVTe7Mm6NtNRkF3HuptQz93Ur6842bEw8Wz9T24i", 0, 5, 0),
-                Flag("SECRET_COMMIT_DEV0_SEC1_OPS0_xtce92s3u3njh54746uni43fw7t352he83z82sa4prj6a953", 0, 1, 0),
+                Flag("SECRET_COMMIT_DEV0_SEC1_OPS0_xtce92s3u3njh54746uni43fw7t352he83z82sa4prj6a953", 1, 1, 0),
                 Flag("SECRET_0_DEV5_SEC3-OPS4_2HcQaXfsHrFw3P2LD4JIY0nbd71Rsj07LX34jc6J9345mcAs", Int.MIN_VALUE, Int.MIN_VALUE, Int.MIN_VALUE),
                 Flag("SECRET_1_DEV0_SEC1_OPS0_Y299rW5yJTQf8etEyt3y7C9a2PzGKpXSdQ62t4i7R8d7fPD7", 0, 1, 0), 
                 Flag("SECRET_2_DEV0_SEC1_OPS0_5iZyvE5mTYcSZD7h7NQ7Nb7buzAY7akS62867Lhe85Xfg6A2", 0, 1, 0), 
